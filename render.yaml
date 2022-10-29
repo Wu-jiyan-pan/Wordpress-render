@@ -4,20 +4,19 @@ services:
   env: docker
   plan: free # optional (defaults to starter)
   autoDeploy: false
-#  disk:
-#    name: wordpress
-#    mountPath: /var/www/html
-#    sizeGB: 3
   envVars:
   - key: WORDPRESS_DB_HOST
-    # value: db_host
+    # value: wp_db_host
+    sync: false
+  - key: WORDPRESS_DB_PORT
+    # value: wp_db_port
     sync: false
   - key: WORDPRESS_DB_NAME
-    # value: db_name
+    # value: wp_db_name
     sync: false
   - key: WORDPRESS_DB_USER
-    # value: db_user
+    # value: wp_db_user
     sync: false
   - key: WORDPRESS_DB_PASSWORD
-    # value: db_password
+    # value: wp_db_password
     sync: false
