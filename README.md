@@ -10,6 +10,6 @@
 
 ## 部署
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/render-examples/wordpress)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Wu-jiyan-pan/Wordpress-render)
 
 ~~原参考文档: https://render.com/docs/deploy-wordpress~~.
